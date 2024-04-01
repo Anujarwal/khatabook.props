@@ -22,6 +22,9 @@ const From = ({saveBalance , edit , updateTransaction , theme , transaction}) =>
         }else{
           saveBalance(text , amount)
         }
+
+        setText("")
+        setAmount("")
     }
 
     useEffect(() =>{
